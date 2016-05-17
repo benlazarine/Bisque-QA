@@ -1,0 +1,12 @@
+#  Test Suite list for running full regression minus the "skipped" tests
+#  Change the title of the test results
+#--name Bisque
+
+#  Specify which test suites files to run in a specific order
+API/Client_Service_endpoints.robot
+API/Data_Service_endpoints.robot
+API/Image_Service_endpoints.robot
+API/Usage_Stats.robot
+API/Features_Service_endpoints.robot
+
+####
