@@ -15,7 +15,7 @@ Open Default Page
 Verify Title of Bisque: Welcome to the Bisque database
     [Tags]    GUI    smoke
     Switch Browser    ${BrowserAlias}
-    Title Should Be    Bisque: Welcome to the Bisque database
+    Title Should Be    Bisque: Welcome to the BisQue database
 
 Verify Welcome to the Bisque database text
     [Tags]    GUI    smoke
@@ -109,7 +109,7 @@ Verify Bisque usage panel
 Verify Default Text
     [Tags]    GUI    smoke
     Switch Browser    ${BrowserAlias}
-    Page Should Contain    Welcome to the Bisque database
+    Page Should Contain    Welcome to the BisQue database
 
 Verify BisQue Text
     [Tags]    GUI    smoke    skipped
