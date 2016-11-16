@@ -46,7 +46,7 @@ Get image_service/formats
     Log    ${resp.content}
     Should Contain    ${resp.content}    <resource uri="/images_service/formats">
     Should Contain    ${resp.content}    <format name="openslide" version="1.0.1">
-    Should Contain    ${resp.content}    <format name="imgcnv" version="2.0.1">
+    Should Contain    ${resp.content}    <format name="imgcnv" version="2.0.9">
     Should Contain    ${resp.content}    <format name="ImarisConvert" version="8.0.2">
     Should Contain    ${resp.content}    <format name="bioformats" version="5.1.1">
     Should Contain    ${resp.content}    </format>
