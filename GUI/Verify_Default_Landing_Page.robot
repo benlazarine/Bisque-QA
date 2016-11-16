@@ -20,7 +20,7 @@ Verify Title of Bisque: Welcome to the Bisque database
 Verify Welcome to the Bisque database text
     [Tags]    GUI    smoke
     Switch Browser    ${BrowserAlias}
-    Wait Until Page Contains    Welcome to the Bisque database    ${GUIShortWait}
+    Wait Until Page Contains    Welcome to the BisQue database    ${GUIShortWait}
     Page Should Contain    Welcome to the BisQue database
 
 Verify Explore published data panel
