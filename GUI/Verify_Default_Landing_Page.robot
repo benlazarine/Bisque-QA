@@ -21,7 +21,7 @@ Verify Welcome to the Bisque database text
     [Tags]    GUI    smoke
     Switch Browser    ${BrowserAlias}
     Wait Until Page Contains    Welcome to the Bisque database    ${GUIShortWait}
-    Page Should Contain    Welcome to the Bisque database
+    Page Should Contain    Welcome to the BisQue database
 
 Verify Explore published data panel
     [Tags]    GUI    smoke
