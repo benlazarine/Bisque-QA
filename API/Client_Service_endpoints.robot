@@ -12,7 +12,7 @@ Get client_service
     Should Be Equal As Strings    ${resp.status_code}    200
     Log    ${resp.content}
     Should Contain    ${resp.content}    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0
-    Should Contain    ${resp.content}    Bisque: Welcome to the Bisque database
+    Should Contain    ${resp.content}    Bisque: Welcome to the BisQue database
 
 Upload battery_icon.png file
     [Tags]    api    smoke    skipped
